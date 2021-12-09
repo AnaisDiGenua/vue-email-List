@@ -15,9 +15,10 @@
 <body>
     
     <div id="root">
-        <ul>
+        <ul v-if="emailArray.legth == 10">
             <li v-for="email in emailArray">{{email}}</li>
         </ul>
+        <div v-for>loading..</div>
     </div>
 
 
